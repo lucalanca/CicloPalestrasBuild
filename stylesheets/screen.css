@@ -761,7 +761,7 @@ body {
   font-weight: 300;
   color: #333; }
 
-/* line 42, screen.css.sass */
+/* line 51, screen.css.sass */
 .container img {
   max-width: 100%;
   height: auto; }
@@ -826,16 +826,16 @@ body {
   h2,
   h3 {
     page-break-after: avoid; } }
-/* line 58, screen.css.sass */
+/* line 67, screen.css.sass */
 header {
   background: white;
   padding: 100px; }
 
-/* line 62, screen.css.sass */
+/* line 71, screen.css.sass */
 body {
   background: #e74c3c; }
 
-/* line 65, screen.css.sass */
+/* line 74, screen.css.sass */
 h1 {
   background: url("../images/logo-color2.png") no-repeat;
   width: 494px;
@@ -844,11 +844,11 @@ h1 {
   overflow: hidden;
   text-align: left; }
 
-/* line 72, screen.css.sass */
+/* line 81, screen.css.sass */
 .events {
   overflow: hidden;
   margin: 300px auto; }
-  /* line 75, screen.css.sass */
+  /* line 84, screen.css.sass */
   .events .event {
     width: 47.85106%;
     float: left;
@@ -864,36 +864,36 @@ h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px; }
-    /* line 83, screen.css.sass */
+    /* line 92, screen.css.sass */
     .events .event .date {
       font-weight: 300; }
-      /* line 84, screen.css.sass */
+      /* line 93, screen.css.sass */
       .events .event .date .day {
         font-size: 32px;
         line-height: 30px;
         color: #c0392b; }
-      /* line 89, screen.css.sass */
+      /* line 98, screen.css.sass */
       .events .event .date .month {
         font-size: 32px;
         line-height: 30px;
         color: #c0392b;
         font-weight: 300; }
-    /* line 94, screen.css.sass */
+    /* line 103, screen.css.sass */
     .events .event h3 {
       margin: 0 0 0.25em 0;
       color: #c0392b; }
-    /* line 97, screen.css.sass */
+    /* line 106, screen.css.sass */
     .events .event p {
       color: #c0392b; }
 
-/* line 99, screen.css.sass */
+/* line 108, screen.css.sass */
 .more-info {
   width: 100%;
   float: left;
   margin-right: 2.12766%;
   display: inline; }
 
-/* line 102, screen.css.sass */
+/* line 111, screen.css.sass */
 .button {
   padding: 12.5px 25px;
   background: #c0392b;
@@ -913,3 +913,75 @@ h1 {
   /* line 6, ../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
   .button:active, .button:focus {
     outline: none; }
+
+/* line 122, screen.css.sass */
+#schedule {
+  overflow: hidden; }
+  /* line 124, screen.css.sass */
+  #schedule header {
+    width: 100%;
+    background: white;
+    padding: 15px; }
+    /* line 128, screen.css.sass */
+    #schedule header h2 {
+      color: #e74c3c; }
+  /* line 130, screen.css.sass */
+  #schedule aside, #schedule .tracks {
+    float: left; }
+  /* line 135, screen.css.sass */
+  #schedule aside {
+    width: 10%;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center; }
+    /* line 139, screen.css.sass */
+    #schedule aside .time {
+      width: 100%;
+      height: 120px;
+      float: left;
+      padding: 15px;
+      font-size: 14px;
+      color: #c0392b;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 800; }
+  /* line 149, screen.css.sass */
+  #schedule .tracks {
+    width: 90%; }
+    /* line 151, screen.css.sass */
+    #schedule .tracks .day {
+      width: 50%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; }
+      /* line 156, screen.css.sass */
+      #schedule .tracks .day .first {
+        margin-top: -3px; }
+      /* line 158, screen.css.sass */
+      #schedule .tracks .day .track {
+        width: 100%;
+        border-left: 3px solid #e74c3c;
+        border-top: 3px solid #e74c3c;
+        background: white;
+        text-align: center; }
+        /* line 165, screen.css.sass */
+        #schedule .tracks .day .track h2 {
+          color: #e74c3c;
+          font-size: 14px; }
+        /* line 168, screen.css.sass */
+        #schedule .tracks .day .track p {
+          font-size: 12px; }
+  /* line 172, screen.css.sass */
+  #schedule .min15 {
+    height: 57px; }
+  /* line 175, screen.css.sass */
+  #schedule .min20 {
+    height: 80.33333px; }
+  /* line 178, screen.css.sass */
+  #schedule .min25 {
+    height: 103.66667px; }
+  /* line 181, screen.css.sass */
+  #schedule .min30 {
+    height: 127px; }
+  /* line 184, screen.css.sass */
+  #schedule .min120 {
+    height: 538px; }
